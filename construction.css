@@ -398,9 +398,6 @@ section {
     border-top: 2px solid rgba(139, 195, 74, 0.2);
     padding: 5rem 2rem 0 2rem;
     position: relative;
-    /* Optional: If you want the blueprint watermark line graphic like the mockup, 
-       uncomment the line below and point it to a light green/gray blueprint pattern image */
-    /* background: url(photos/blueprint-blend.jpg) right center/contain no-repeat #fff; */
 }
 
 .footer-container {
@@ -499,7 +496,7 @@ section {
     transform: translateX(4px);
 }
 
-/* Specific left indicator dot from Option 3 design specs */
+/* Specific left indicator dot from design specs */
 .footer-links-col ul li a::before {
     content: "•";
     color: var(--primary-soft);
@@ -581,62 +578,6 @@ section {
     }
 }
 
-
-/*
-#section4 {
-    background: url(photos/texture1.jpg) center/cover no-repeat;
-    color: var(--text-light);
-}
-
-#section4 h4 {
-    font-size: 2.5rem;
-    color: var(--primary);
-    margin-bottom: 1rem;
-}
-
-#section4 h5 {
-    margin-top: 2rem;
-    border-left: 4px solid var(--primary);
-    padding-left: 0.65rem;
-}
-
-#section4 ul {
-    list-style: none;
-    margin-top: 0.4rem;
-}
-
-#section4 li {
-    margin-bottom: 0.2rem;
-    font-size: 0.8rem;
-}
-
-#section4 p{
-    font-size: 0.8rem;
-}
-
-#section4 li::before {
-    content: "▸ ";
-    color: var(--primary);
-}
-
-*/
-
-
-
-
-/* Footer */
-
-
-/*
-footer {
-    background: url(photos/texture2.jpg) center/cover no-repeat;
-    text-align: center;
-    padding: 2rem;
-    color: var(--text-light);
-    font-size: 0.85rem;
-}
-
-*/
 
 
 
