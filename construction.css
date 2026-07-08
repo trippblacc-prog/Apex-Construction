@@ -169,6 +169,11 @@ section {
     justify-content: center;
 }
 
+#content1 h2,
+#content2 h2 {
+    color:white;
+}
+
 #content1 {
     background: url(photos/safety-workwear.webp) center/cover no-repeat;
     align-items: flex-end;
@@ -196,10 +201,6 @@ section {
     color: var(--heading-main);
 }
 
-#content1 h2,
-#content2 h2 {
-    color:white;
-}
 
 /* About */
 
