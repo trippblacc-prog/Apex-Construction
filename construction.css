@@ -196,6 +196,11 @@ section {
     color: var(--heading-main);
 }
 
+#content1 h2,
+#content2 h2 {
+    color:white;
+}
+
 /* About */
 
 /* ---------------- OPTION 1: MODERN & STRUCTURAL ABOUT SECTION ---------------- */
