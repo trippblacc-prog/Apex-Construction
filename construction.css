@@ -139,12 +139,12 @@ section {
 
 #section1 h2,
 #section2 h2 {
-    color: var( --text-dark);
+    color: var(--heading-dark);
 }
 
 #section1 h3,
 #section2 h3 {
-    color: var( --primary-dark);
+    color: var(--primary-dark);
 }
 
 /* Section 2 */
