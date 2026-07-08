@@ -209,7 +209,7 @@ section {
 
 /* About */
 
-/* ---------------- OPTION 1: MODERN & STRUCTURAL ABOUT SECTION ---------------- */
+/* ----------------  MODERN & STRUCTURAL ABOUT SECTION ---------------- */
 
 .about-modern {
     background: #f8fafc; /* Clean, off-white background to make text pop */
@@ -402,13 +402,14 @@ section {
 }
 
 
-/* ---------------- OPTION 3: HYBRID BLUEPRINT FOOTER ---------------- */
+/* ---------------- HYBRID BLUEPRINT FOOTER ---------------- */
 
 .footer-hybrid {
     background: #ffffff; /* Clean white top area */
     border-top: 2px solid rgba(139, 195, 74, 0.2);
     padding: 5rem 2rem 0 2rem;
     position: relative;
+    background: url(photos/backgroundfooterimage.png) center/cover no-repeat #fff;
 }
 
 .footer-container {
@@ -449,9 +450,14 @@ section {
 }
 
 .footer-tagline {
-    color: var(--muted);
+    color: var(--primary);
     font-size: 0.9rem;
     font-weight: 500;
+    text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
 }
 
 .footer-contact-details {
