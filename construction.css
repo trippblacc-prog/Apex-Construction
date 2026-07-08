@@ -145,6 +145,11 @@ section {
 #section1 h3,
 #section2 h3 {
     color: var(--primary-dark);
+    text-shadow: 
+       -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+       -1px  1px 0 #fff,
+        1px  1px 0 #fff;
 }
 
 /* Section 2 */
